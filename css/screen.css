@@ -203,7 +203,36 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+/* Hailie Jade Juliano lab 3 ITMD 362
+*/
+body {
+  background-color: #FDF0D5;
+}
+
+h1 {
+  color: #003049;
+}
+p {
+  color: #003049;
+}
+form {
+  background-color: #669BBC;
+}
+input {
+ background-color: #C1121F;
+ color: #780000;
+}
+label {
+  color: #003049;
+}
+
+/*design form */
 
 
 /* ===== STATE STYLES ======= */
+@media only screen and (min-width: 480px) {
 
+}
+@media only screen and (min-width: 992px) {
+
+}
