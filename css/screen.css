@@ -217,7 +217,7 @@ h1 {
 
 p {
   color: #FCBF49;
-  font-size: 1em;
+  font-size: 1.667em;
   margin-bottom: 1em;
 }
 
@@ -234,6 +234,7 @@ form {
 }
 
 input {
+  font-size: 1.667em;
   border: 0;
   border-radius: 0.36em;
 }
@@ -261,8 +262,8 @@ input:focus {
 
 /* ===== STATE STYLES ======= */
 @media only screen and (min-width: 480px) {
-
+/*for ipad*/
 }
 @media only screen and (min-width: 992px) {
-
+/*for dektop*/
 }
