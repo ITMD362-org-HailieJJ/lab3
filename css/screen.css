@@ -206,42 +206,57 @@ label {
 /* Hailie Jade Juliano lab 3 ITMD 362
 */
 body {
-  background-color: #FDF0D5;
+  background-color: #F77F00;
 }
 
 h1 {
-  color: #003049;
+  color: #D62828;
   font-size: 2.779em;
   padding: 1em;
 }
 
 p {
-  color: #003049;
+  color: #FCBF49;
   font-size: 1em;
+  margin-bottom: 1em;
 }
+
+label {
+  color: #FCBF49;
+  font-style: bold;
+}
+
 form {
   margin: 1.667em;
   padding: 1em;
-  background-color: #669BBC;
+  background-color: #003049;
   border-radius: 1.667em;
 }
+
 input {
   margin-top: 1em;
   margin-bottom: 1em;
-  background-color: lightgray;
-  color: darkgray;
   border: 0;
   border-radius: 0.36em;
 }
-label {
-  color: #003049;
-  font-style: bold;
-}
+
 input:focus {
   /* removes focus border*/
   outline: none;
   border: none;
 }
+
+#input-email input {
+  background-color: lightgray;
+  color: darkgray;
+}
+
+
+#input-submit input {
+  background-color: #D62828;
+  color: #EAE2B7;
+}
+
 
 
 
