@@ -211,21 +211,28 @@ body {
 
 h1 {
   color: #003049;
+  font-size: 2.779em;
+  padding: 1em;
 }
+
 p {
   color: #003049;
+  font-size: 1em;
 }
 form {
+  margin: 2em;
   padding: 1em;
   background-color: #669BBC;
-  border-radius: 0.5em;
+  border-radius: 4em;
 }
 input {
-  background-color: #C1121F;
-  color: #780000;
+  background-color: grey;
+  color: darkgray;
+  border: 0;
 }
 label {
   color: #003049;
+  font-style: italic;
 }
 
 /*design form */
