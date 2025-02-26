@@ -234,8 +234,6 @@ form {
 }
 
 input {
-  margin-top: 1em;
-  margin-bottom: 1em;
   border: 0;
   border-radius: 0.36em;
 }
@@ -245,20 +243,21 @@ input:focus {
   outline: none;
   border: none;
 }
+#input-email {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 #input-email input {
   background-color: lightgray;
   color: darkgray;
 }
 
-
 #input-submit input {
   background-color: #D62828;
   color: #EAE2B7;
+  margin-top: 1em;
 }
-
-
-
 
 /* ===== STATE STYLES ======= */
 @media only screen and (min-width: 480px) {
