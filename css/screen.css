@@ -231,10 +231,11 @@ input {
   background-color: lightgray;
   color: darkgray;
   border: 0;
+  border-radius: 0.36em;
 }
 label {
   color: #003049;
-  font-style: italic;
+  font-style: bold;
 }
 input:focus {
   /* removes focus border*/
