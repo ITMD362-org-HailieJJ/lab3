@@ -214,12 +214,14 @@ h1 {
   color: #D62828;
   font-size: 2.779em;
   padding: 1em;
+  line-height: 1em;
 }
 
 p {
   color: #FCBF49;
   font-size: 1.667em;
   margin-bottom: 1em;
+  line-height: 1em;
 }
 
 label {
@@ -264,6 +266,10 @@ input:focus {
 /* ===== STATE STYLES ======= */
 @media only screen and (min-width: 480px) {
 /*for ipad*/
+  input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+  }
 }
 @media only screen and (min-width: 992px) {
 /*for dektop*/
@@ -273,14 +279,12 @@ input:focus {
 
   h1 {
     font-size: 3.821em;
-    line-height: 1em;
     padding: 0em;
     padding-bottom: 0.36em;
   }
 
   p {
     font-size: 2.292em;
-    line-height: 1em;
   }
 
   label {
