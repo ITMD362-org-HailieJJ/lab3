@@ -207,6 +207,7 @@ label {
 */
 body {
   background-color: #F77F00;
+  font-family: "Poppins", "Lato", "Roboto", "PT Sans";
 }
 
 h1 {
@@ -266,4 +267,36 @@ input:focus {
 }
 @media only screen and (min-width: 992px) {
 /*for dektop*/
+  body {
+    background-color: #003049;
+  }
+
+  h1 {
+    font-size: 3.821em;
+    line-height: 1em;
+    padding: 0em;
+    padding-bottom: 0.36em;
+  }
+
+  p {
+    font-size: 2.292em;
+    line-height: 1em;
+  }
+
+  label {
+    font-size: 1.667em;
+    padding-bottom: 0.6em;
+  }
+
+  form {
+    margin: 0em;
+    padding: 1em;
+    border-radius: 0em;
+  }
+
+  input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    margin-bottom: 0.6em;
+  }
 }
