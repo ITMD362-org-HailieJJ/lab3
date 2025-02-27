@@ -266,6 +266,15 @@ input:focus {
 /* ===== STATE STYLES ======= */
 @media only screen and (min-width: 480px) {
 /*for ipad*/
+  body {
+    background-color: #003049;
+  }
+
+  h1 {
+    padding: 0em;
+    padding-bottom: 0.36em;
+  }
+
   input[type="checkbox"] {
     width: 1em;
     height: 1em;
@@ -273,14 +282,8 @@ input:focus {
 }
 @media only screen and (min-width: 992px) {
 /*for dektop*/
-  body {
-    background-color: #003049;
-  }
-
   h1 {
     font-size: 3.821em;
-    padding: 0em;
-    padding-bottom: 0.36em;
   }
 
   p {
